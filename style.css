@@ -99,8 +99,8 @@ footer {
     align-items: center;
     justify-content: space-between;
     height: 150px;
+    gap: 50px;
 
-    gap: 20px;
 }
 
 .humidity {
@@ -108,6 +108,7 @@ footer {
     height: 140px;
     display: flex;
     align-items: center;
+    justify-content: center;
 
 
 }
@@ -118,7 +119,7 @@ footer {
     height: 140px;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
 
 
 
@@ -129,6 +130,7 @@ footer {
 
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 3.5rem;
     color: white;
 }
@@ -164,17 +166,43 @@ footer {
 
 .wind-icn {
     display: flex;
-    justify-content: right;
+
 
 }
 
-@media screen and (max-width:500px) {
+.wind-b {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
+}
+
+
+@media screen and (max-width:500px) {
+.search{
+    width: 250px;
+}
+  
+    .weather-img{
+        width: 250px;
+    }
+    .temperatue{
+        font-size: 2rem;
+    }
+    .city{
+        font-size: 2rem;
+    }
     footer {
-        width: 360px;
+        width: 350px;
+    }
+
+    .humidity-a {
+        font-size: 1.2rem;
     }
 
     .humidity-icn {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
