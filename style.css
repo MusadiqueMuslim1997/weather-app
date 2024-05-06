@@ -15,7 +15,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 
 
 
@@ -99,7 +99,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     height: 150px;
-  
+
     gap: 20px;
 }
 
@@ -108,7 +108,7 @@ footer {
     height: 140px;
     display: flex;
     align-items: center;
-   
+
 
 }
 
@@ -119,27 +119,29 @@ footer {
     display: flex;
     align-items: center;
     justify-content: right;
-   
+
 
 
 }
 
-.humidity-icn{
-    
-   
+.humidity-icn {
+
+
     display: flex;
     align-items: center;
     font-size: 3.5rem;
     color: white;
 }
-.humidity1{
-   
+
+.humidity1 {
+
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
-.humidity-a{
+
+.humidity-a {
     width: 100%;
     display: flex;
     align-items: center;
@@ -149,7 +151,8 @@ footer {
     color: white;
     font-weight: bolder;
 }
-.humidity-b{
+
+.humidity-b {
     width: 100%;
     display: flex;
     align-items: center;
@@ -158,18 +161,20 @@ footer {
     font-size: 1rem;
     color: white;
 }
-.wind-icn{
+
+.wind-icn {
     display: flex;
     justify-content: right;
-    
+
 }
 
-@media screen and (max-width:500px){
-    
-    footer{
+@media screen and (max-width:500px) {
+
+    footer {
         width: 360px;
     }
-    .humidity-icn{
-    font-size: 3rem;
+
+    .humidity-icn {
+        font-size: 3rem;
     }
 }
