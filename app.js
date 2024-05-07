@@ -18,4 +18,9 @@ async function checkWeather(city) {
 function searchcity(){
     checkWeather(seacrh.value);
 }
-checkWeather()
+
+
+let defaultSet = "karachi";
+
+checkWeather(defaultSet);
+
